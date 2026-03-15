@@ -1,35 +1,65 @@
-## Project roadmap
+# Netflix Content Analysis Dashboard
 
-v1.0 – Data Quality & Exploratory Data Analysis (EDA)  
-- Carga del dataset  
-- Revisión de columnas  
-- Conteo de valores nulos  
-- Rango de fechas  
-- Estadísticas básicas  
+This project explores the Netflix catalog using Python for data cleaning and exploratory data analysis (EDA), and Power BI for interactive dashboard visualization.
 
-v2.0 – Insights & Visualization *(en progreso)*  
-- Gráficos por año  
-- Distribución por país  
-- Movies vs TV Shows  
-- Tendencias del catálogo  
+The goal is to understand patterns in Netflix content such as catalog growth, distribution by country, content ratings, and the balance between movies and TV shows.
 
-v3.0 – Clustering & Recommendation *(planeado)*  
-- Vectorización de texto  
-- Agrupamiento de títulos  
-- Sistema de recomendación  
+---
+
+## Dashboard Preview
+
+![Netflix Dashboard](dashboard_preview.png)
+
+---
+
+## Key Insights
+
+- Movies represent the majority of the Netflix catalog.
+- The Netflix catalog experienced rapid growth after 2015.
+- The United States is the largest contributor of titles on the platform.
+- Most of the content is classified as **TV-MA**, indicating a strong focus on mature audiences.
+
+---
+
+## Tools & Technologies
+
+- **Python**
+- **Pandas**
+- **Matplotlib**
+- **Jupyter Notebook**
+- **Power BI**
+
+---
+
+## Project Workflow
+
+### 1. Data Cleaning
+- Handling missing values
+- Standardizing country information
+- Splitting multi-country records
+- Creating derived time features
+
+### 2. Exploratory Data Analysis (EDA)
+- Distribution of titles by year
+- Movies vs TV Shows comparison
+- Content rating distribution
+- Country contribution analysis
+
+### 3. Data Visualization
+An interactive dashboard was built in **Power BI** including:
+
+- Total number of titles
+- Movies vs TV Shows distribution
+- Catalog growth over time
+- Top countries contributing content
+- Content rating distribution
+- Global content distribution map
 
 ---
 
 ## Dataset
-Fuente: Kaggle – Netflix Movies and TV Shows  
-Periodo: 2008–2021  
 
-## Herramientas
-- Python  
-- Pandas  
-- Matplotlib  
-- Jupyter Notebook  
+Source: **Kaggle – Netflix Movies and TV Shows**
 
-## Estado del proyecto
-Actualmente en fase de limpieza de datos y análisis exploratorio inicial (EDA).  
-Este proyecto se seguirá actualizando con nuevos análisis y modelos en el tiempo.
+Period covered:
+
